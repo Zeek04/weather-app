@@ -14,3 +14,39 @@ body{
     color: #fff;
     font-weight: 900;
 }
+
+#inputBox{
+    font-size: 25px;
+    border: black solid 2px;
+    border-radius: 2px;
+}
+
+#inputButton{
+    font-size: 25px;
+    color: #fff;
+    background: red;
+    padding: 3px 20px;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+#inputButton:hover{
+    background: darkred;
+}
+
+.weather-box{
+    background-color: cadetblue;
+    color: #fff;
+    margin-top: 40px;
+    width: 350px;
+    height: 450px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+#tempature{
+    font-size: 30px;
+    font-weight: bold;
+}
