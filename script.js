@@ -30,10 +30,11 @@ inputButton.addEventListener('click', async() => {
 
 function displayWeather(data){
     const {name , main , weather} = data
+    const cToF = Math.floor((main.temp * 9/5) + 32)
 
     resultContainer.innerHTML = `
     <h2>${name}</h2>
-    <p>Tempature: ${main.temp} C</p>
+    <p>Tempature: ${cToF}F</p>
     <p>Weather: ${weather[0].description}</p>
     <p>Humidity: ${main.humidity}%</p>
     `
